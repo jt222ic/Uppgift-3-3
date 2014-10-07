@@ -29,7 +29,7 @@
     }
     
 #menu{ height:50px;
-       background-color:#e8e5d1;
+       background-color:#e8e5d1;    /* gula backgrunden för menyn */
 }
    
 
@@ -50,7 +50,7 @@
  
 #menu ul li a 
     { 
-	    text-decoration:none; 
+	    text-decoration:none;        /*kanten*/
 	    padding:10px 20px;
 	    color:#e8e5d1; 
 	    background-color:#786f66; 
@@ -61,7 +61,7 @@
 	    color:#e8d8ac; 
 	    background-color:#9c9084 
 	}
-	a[href="#maincontent"] { opacity:0; }
+	a[href="#maincontent"] { opacity:0; }   /* transpartera bort */
 	
 	
 	
@@ -117,7 +117,7 @@
     font-style:italic;
     
     background-color:#4f463;
-    background-image:url(pics/coffey.jpg);
+    background-image:url(pics/coffey.jpg);   /* stora bilden */
     background-repeat:no-repeat;
     background-position:bottom;
 }
